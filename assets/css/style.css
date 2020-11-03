@@ -977,6 +977,8 @@ a:hover {
 .testimonial-box {
   color: #fff;
   text-align: center;
+  padding-left:20px;
+  padding-right:20px;
 }
 
 .testimonial-box .author-test {
@@ -1384,4 +1386,34 @@ footer .credits a {
   font-size: 1.5rem;
   float:right;
   margin-right:10px
+}
+
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+.owl-nav button.owl-prev {
+  left: 0;
+}
+.owl-nav button.owl-next {
+  right: 0;
+}
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+.owl-nav button:focus {
+    outline: none;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled{
+pointer-events: none;
+opacity: 0.2;
 }
