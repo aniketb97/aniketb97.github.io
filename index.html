@@ -23,20 +23,14 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- =======================================================
-    * Template Name: DevFolio - v2.3.0
-    * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-    * Author: BootstrapMade.com
-    * License: https://bootstrapmade.com/license/
-    ======================================================== -->
 </head>
 
-<body id="page-top">
+<body id="page-top" onload="getTS()">
 
 <!-- ======= Header/ Navbar ======= -->
 <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-        <!--      <a class="navbar-brand js-scroll" href="#page-top">Aniket Milind Banginwar</a>-->
+        <a class="navbar-brand js-scroll" href="#page-top">&lt;/&gt;</a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
                 aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span></span>
@@ -52,6 +46,9 @@
                     <a class="nav-link js-scroll" href="#about">About me</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link js-scroll" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link js-scroll" href="#skills">Skills</a>
                 </li>
                 <li class="nav-item">
@@ -64,64 +61,27 @@
 
 <!-- ======= Intro Section ======= -->
 <div id="home" class="intro route bg-image">
-    <div class="overlay-itro"></div>
     <div class="intro-content display-table">
         <div class="table-cell">
             <div class="container">
                 <img class="img-responsive" src="assets/img/profile.jpg" alt="Image"
-                     style="border-radius:50%;height:240px;width:240px;">
+                     style="border-radius:50%;height:240px;width:240px;margin-top:50px">
                 <h1 class="intro-title mb-4">Aniket Milind Banginwar</h1>
                 <p class="intro-subtitle">I love <span class="text-slider-items">Artificial Intelligence.,Computer Vision.,Android Development.,Web Development.</span><strong
                         class="text-slider"></strong></p><br/>
-                <h3 style="text-align:center; color:#a3a3a3">Website is still under construction</h3>
-                <a href="https://drive.google.com/file/d/1idDPjFN314L0733DrihmCH4M8w2miIG2/view?usp=sharing"
-                   class="resumeBtn">Resume</a>
+                <div><a class="nav-link js-scroll" href="#about"><i class="fa fa-chevron-down"
+                                                                    style="text-align:center;font-size:30px;font-weight:800px;color:#fff"></i></a>
+                </div>
+                <div style="margin-top:-30px"><a
+                        href="https://drive.google.com/file/d/1idDPjFN314L0733DrihmCH4M8w2miIG2/view?usp=sharing"
+                        class="resumeBtn">Resume</a></div>
             </div>
         </div>
     </div>
 </div>
 <!-- End Intro Section -->
 
-<main id="main">
-
-    <!-- ======= About Section ======= -->
-    <!--    <section id="about" class="about-mf sect-pt4 route">-->
-    <!--        <div class="container">-->
-    <!--            <div class="row">-->
-    <!--                <div class="col-sm-12">-->
-    <!--                    <div class="box-shadow-full">-->
-    <!--                        <div class="skill-mf">-->
-    <!--                            <div class="title-box-2">-->
-    <!--                                <h5 class="title-left">-->
-    <!--                                    About me-->
-    <!--                                </h5>-->
-    <!--                            </div>-->
-    <!--                            <div class="row">-->
-    <!--                                <div class="col-md-4">-->
-    <!--                                    <img class="img-responsive" src="assets/img/profile.jpg" alt="Image"-->
-    <!--                                         style="border-radius:50%;height:250px;width:250px;display:block;margin-left:auto;margin-right:auto;margin-bottom:20px">-->
-    <!--                                </div>-->
-    <!--                                <div class="col-md-8">-->
-    <!--                                    <p style="color:#03045e;text-align:justify;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem-->
-    <!--                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an-->
-    <!--                                        unknown printer took a galley of type and scrambled it to make a type specimen-->
-    <!--                                        book.-->
-    <!--                                        It has survived not only five centuries, but also the leap into electronic-->
-    <!--                                        typesetting, remaining essentially unchanged. It was popularised in the 1960s-->
-    <!--                                        with-->
-    <!--                                        the release of Letraset sheets containing Lorem Ipsum passages, and more-->
-    <!--                                        recently-->
-    <!--                                        with desktop publishing software like Aldus PageMaker including versions of-->
-    <!--                                        Lorem-->
-    <!--                                        Ipsum.</p>-->
-    <!--                                </div>-->
-    <!--                            </div>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </section>&lt;!&ndash; End About Section &ndash;&gt;-->
+<main id="main" style="margin-top:50px">
 
     <!-- ======= Testimonials Section ======= -->
     <section id="about" class="about-mf sect-pt4 route">
@@ -148,26 +108,16 @@
                                                     </div>
                                                     <div class="col-md-9"
                                                          style="height:auto;width:auto;float:right">
-                                                        <p style="color:#03045e;text-align:justify;">Lorem Ipsum is
-                                                            simply dummy text of the printing and typesetting
-                                                            industry. Lorem
-                                                            Ipsum has been the industry's standard dummy text ever
-                                                            since the 1500s, when an
-                                                            unknown printer took a galley of type and scrambled it
-                                                            to make a type specimen
-                                                            book.
-                                                            It has survived not only five centuries, but also the
-                                                            leap into electronic
-                                                            typesetting, remaining essentially unchanged. It was
-                                                            popularised in the 1960s
-                                                            with
-                                                            the release of Letraset sheets containing Lorem Ipsum
-                                                            passages, and more
-                                                            recently
-                                                            with desktop publishing software like Aldus PageMaker
-                                                            including versions of
-                                                            Lorem
-                                                            Ipsum.</p>
+                                                        <p style="color:#03045e;text-align:justify;">Hello!<br/>My name
+                                                            is Aniket Milind Banginwar. I work as a Research Engineer at
+                                                            MAKERS
+                                                            LAB, Research and Development lab of Tech Mahindra Ltd. My
+                                                            main focus is to use disruptive technologies to solve issues
+                                                            in
+                                                            the AgriTech domain. I am passionate about Artificial
+                                                            Intelligence, Computer Vision but I have also focused the
+                                                            past year on developing my android and web development
+                                                            skills.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -180,13 +130,20 @@
                                             <div class="col-sm-12">
                                                 <div class="row">
                                                     <div class="col-md-3">
-                                                        <img class="img-responsive" src="assets/img/profile3.jpg"
+                                                        <img class="img-responsive" src="assets/img/family.jpg"
                                                              alt="Image"
                                                              style="border-radius:50%;max-width:100%;max-height:100%;display:block;margin-left:auto;margin-right:auto;margin-bottom:20px">
                                                     </div>
                                                     <div class="col-md-9"
                                                          style="height:auto;width:auto;float:right">
-                                                        <p style="color:#03045e;text-align:justify;"></p>
+                                                        <p style="color:#03045e;text-align:justify;">My family is a
+                                                            major part of who I am.<br/>I love my mom and dad. All my
+                                                            positive traits and achievements are the reason of their
+                                                            upbringing and values they have instilled in me. I am where
+                                                            I am because of them and this website
+                                                            wouldn't be complete without thanking them.<br/>My father
+                                                            works in the IT sector and my mother works full-time as a
+                                                            homemaker.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -201,6 +158,281 @@
         </div>
     </section><!-- End Testimonials Section -->
 
+    <!--     ======= About Section ======= -->
+    <section id="experience" class="about-mf sect-pt4 route">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="box-shadow-full">
+                        <div class="skill-mf">
+                            <div class="title-box-2">
+                                <h5 class="title-left">
+                                    Work Experience
+                                </h5>
+                            </div>
+                            <div id="work-ex-mf" class="owl-carousel owl-theme">
+                                <div class="testimonial-box">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <a href="https://www.techmahindra.com/en-in/innovation/makers-lab/"
+                                                           target="_blank"><img
+                                                                class="img-responsive" src="assets/img/techM_logo.jpg"
+                                                                alt="Image"
+                                                                style="max-width:100%;max-height:100%;display:block;margin-left:auto;margin-right:auto;margin-bottom:20px"></a>
+                                                    </div>
+                                                    <div class="col-md-9"
+                                                         style="height:auto;width:auto;float:right">
+                                                        <div>
+                                                            <h4 style="font-family:Lucida Console;color:#030453;font-weight:600;text-align:left">
+                                                                Research Engineer</h4>
+                                                            <h6 style="font-family:Lucida Console;color:#030453;font-weight:600;text-align:left">
+                                                                <a href="https://www.techmahindra.com/en-in/innovation/makers-lab/"
+                                                                   target="_blank">MAKERS
+                                                                    LAB, Tech Mahindra Ltd.<br/><i><u>(website link)</u></i></a>
+                                                            </h6>
+                                                            <h6 style="font-family:Lucida Console;color:#030453;font-weight:600;text-align:left">
+                                                                Aug. 2019 - Present</h6>
+                                                        </div>
+                                                        <ul style="color:#03045e;text-align:justify;">
+                                                            <li class="space-li">Lead developer for the android
+                                                                application named <b>Darpan</b>
+                                                                <a href="https://www.linkedin.com/posts/aniketbanginwar_darpan-white-paper-ugcPost-6700321102796767232-Ca0s/"
+                                                                   target="_blank"><i><u>(whitepaper link)</u></i></a>,
+                                                                first of its kind solution to bridge
+                                                                the
+                                                                gap between farmers and their financial (accounting)
+                                                                independence. Currently in β-testing, offered to 7000+
+                                                                farmers
+                                                                PAN India.
+                                                            </li>
+                                                            <li class="space-li">Lead developer for the android
+                                                                application named
+                                                                <b>Atmanirbhar Krishi</b> for the <b>Office of the
+                                                                    Principal
+                                                                    Scientific
+                                                                    Adviser to the Government of India</b> in the
+                                                                AgriTech
+                                                                domain <a href="https://www.google.com/"
+                                                                          target="_blank"><i><u>(playstore link)</u></i></a>
+                                                                on <b>KISANMITR</b>, the National
+                                                                Digital Platform for Farmers <a
+                                                                        href="https://kisanmitr.gov.in/"
+                                                                        target="_blank">(website link)</a>.
+                                                            </li>
+                                                            <li class="space-li">Worked with the COVID-Response team to
+                                                                visualise and
+                                                                compare different virus strains with COVID-19 <a
+                                                                        href="https://www.linkedin.com/pulse/covid-19-protein-comparison-analysis-nikhil-malhotra/"
+                                                                        target="_blank"><i><u>(link)</u></i></a> and
+                                                                also performed molecular docking of various drugs with
+                                                                the COVID-19 virus <a
+                                                                        href="https://entellio3.techmahindra.com/covid19_research/COVID-19%20Protein%20Docking%20Report-%20Ayurvedic%20Analysis.pdf"
+                                                                        target="_blank"><i><u>(link)</u></i></a>.
+                                                            </li>
+                                                            <li class="space-li">Contributed to development of a
+                                                                Telehealth solution
+                                                                named <b>Ashvin</b> <a
+                                                                        href="https://connectsense.techmahindra.com/"
+                                                                        target="_blank"><i><u>(website link)</u></i></a>
+                                                                for Indian citizens to
+                                                                support
+                                                                them during the pandemic.
+                                                            </li>
+                                                            <li class="space-li">Developed the <b>Ekatvam
+                                                                Registration</b> app, used by Tech
+                                                                Mahindra during the annual festival Ekatvam to account
+                                                                for
+                                                                people coming to the festival. It used QR scanner and
+                                                                had a hidden admin mode activated by gesture.
+                                                            </li>
+                                                            <li class="space-li">Worked on various Proof of Concepts to
+                                                                provide
+                                                                innovative solutions to our customers’ problems. Eg:
+                                                                <ul>
+                                                                    <li>Augmented
+                                                                        Reality Measurement app using ARCore.
+                                                                    </li>
+                                                                    <li>Parcel detection
+                                                                        using OpenCV
+                                                                    </li>
+                                                                    <li>Bringing Tech Mahindra’s cognitive bot
+                                                                        framework <b>Entellio</b> <a
+                                                                                href="https://entellio.techmahindra.com/"
+                                                                                target="_blank"><i><u>(website link)</u></i></a>
+                                                                        on mobile platform.
+                                                                    </li>
+                                                                    <li>Development of <b>X-Retail<sup>TM</sup></b>
+                                                                        platform <a
+                                                                                href="https://cache.techmahindra.com/static/img/pdf/Xretail-Brochure-2.pdf"
+                                                                                target=" _blank"><i><u>(whitepaper
+                                                                            link)</u></i></a>, Tech
+                                                                        Mahindra’s Next Generation Retail Digital
+                                                                        Transformation.
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-box">
+                                    <div class="container">
+                                        <div class="row" style="margin-bottom:30px">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <a href="https://www.lntinfotech.com/digital-transformation/artificial-intelligence-cognitive/"
+                                                           target="_blank">
+                                                            <img class="img-responsive"
+                                                                 src="assets/img/lti_logo.png"
+                                                                 alt="Image"
+                                                                 style="max-width:100%;max-height:100%;display:block;margin-left:auto;margin-right:auto;margin-bottom:20px"></a>
+                                                    </div>
+                                                    <div class="col-md-9"
+                                                         style="height:auto;width:auto;float:right">
+                                                        <div>
+                                                            <h4 style="font-family:Lucida Console;color:#030453;font-weight:600;text-align:left">
+                                                                Artificial Intelligence Research Intern</h4>
+                                                            <h6 style="font-family:Lucida Console;color:#030453;font-weight:600;text-align:left">
+                                                                <a href="https://www.lntinfotech.com/digital-transformation/artificial-intelligence-cognitive/"
+                                                                   target="_blank">Larsen & Tubro Infotech
+                                                                    Ltd.<br/><u><i>(website link)</i></u></a></h6>
+                                                            <h6 style="font-family:Lucida Console;color:#030453;font-weight:600;text-align:left">
+                                                                Jun. 2018 - Aug. 2018</h6>
+                                                        </div>
+                                                        <ul style="color:#03045e;text-align:justify;">
+                                                            <li class="space-li">Developed a system
+                                                                to predict overheating of transformer-oil and alert user
+                                                                to
+                                                                take measures before any damage is
+                                                                caused to the transformer. System was deployed on the
+                                                                SAP
+                                                                Leonardo Platform.
+                                                            </li>
+                                                            <li class="space-li">Research involved how the temperature
+                                                                of the transformer
+                                                                oil is correlated to the overhearing of the transformer.
+                                                                The analysis included many parameters like oil type,
+                                                                viscosity, transformer parameters, etc. Dataset was
+                                                                privately obtained by the company.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <a href="https://cdri.res.in/"
+                                                           target="_blank">
+                                                            <img class="img-responsive"
+                                                                 src="assets/img/CSIR_CDRI_logo.jpg"
+                                                                 alt="Image"
+                                                                 style="max-width:100%;max-height:100%;display:block;margin-left:auto;margin-right:auto;margin-bottom:20px"></a>
+                                                    </div>
+                                                    <div class="col-md-9"
+                                                         style="height:auto;width:auto;float:right">
+                                                        <div>
+                                                            <h4 style="font-family:Lucida Console;color:#030453;font-weight:600;text-align:left">
+                                                                Blockchain Intern (Content Writing)</h4>
+                                                            <h6 style="font-family:Lucida Console;color:#030453;font-weight:600;text-align:left">
+                                                                <a href="https://cdri.res.in/"
+                                                                   target="_blank">Council of Scientific and Industrial
+                                                                    Research - Central Drug Research
+                                                                    Institute<br/><u><i>(website link)</i></u></a></h6>
+                                                            <h6 style="font-family:Lucida Console;color:#030453;font-weight:600;text-align:left">
+                                                                Jun. 2018 - Aug. 2018</h6>
+                                                        </div>
+                                                        <ul style="color:#03045e;text-align:justify;">
+                                                            <li class="space-li">Researched on various use-cases and
+                                                                published my
+                                                                findings (articles) and possible practical applications
+                                                                of blockchain
+                                                                as part of a citizen science effort by CSIR-CDRI, a
+                                                                government institution.
+                                                            </li>
+                                                            <li class="space-li">During this time I learned alot about
+                                                                the working of blockchain and also made a project on
+                                                                Smart contracts using Solidity.
+                                                            </li>
+                                                            <li class="space-li">Articles:<br/>&nbsp<a
+                                                                    href="https://medium.com/@sukantkhurana/smart-contracts-demystified-b54443304e14"
+                                                                    target="_blank"><u><i>[1]Smart Contracts :
+                                                                Demystified</i></u></a><br/>&nbsp<a
+                                                                    href="https://medium.com/@sukantkhurana/what-is-blockchain-and-how-will-it-impact-the-world-585c5cfa942f"
+                                                                    target="_blank"><u><i>[2]What is Blockchain and how
+                                                                will it impact the world</i></u></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End About Section -->
+
+    <!--     ======= About Section ======= -->
+    <!--    <section id="experience1" class="about-mf sect-pt4 route">-->
+    <!--        <div class="container">-->
+    <!--            <div class="row">-->
+    <!--                <div class="col-sm-12">-->
+    <!--                    <div class="box-shadow-full">-->
+    <!--                        <div class="skill-mf">-->
+    <!--                            <div class="title-box-2">-->
+    <!--                                <h5 class="title-left">-->
+    <!--                                    Work Experience-->
+    <!--                                </h5>-->
+    <!--                            </div>-->
+    <!--                            <div class="container-fluid">-->
+    <!--                                <nav class="customtabs">-->
+    <!--                                    <ul class="nav nav-tabs">-->
+    <!--                                        <li class="nav-item">-->
+    <!--                                            <a class="nav-link active" href="#firsttab" data-toggle="tab">Tech Mahindra-->
+    <!--                                                Ltd.</a>-->
+    <!--                                        </li>-->
+    <!--                                        <li class="nav-item">-->
+    <!--                                            <a class="nav-link" href="#secondtab" data-toggle="tab">L&T Infotech-->
+    <!--                                                Ltd.</a>-->
+    <!--                                        </li>-->
+    <!--                                        <li class="nav-item">-->
+    <!--                                            <a class="nav-link" href="#thirdtab" data-toggle="tab">CSIR-CDRI</a>-->
+    <!--                                        </li>-->
+    <!--                                    </ul>-->
+    <!--                                </nav>-->
+    <!--                                <div class="tab-content">-->
+    <!--                                    <div class="tab-pane active" id="firsttab">-->
+    <!--                                        <p>Tech Mahindra</p>-->
+    <!--                                    </div>-->
+    <!--                                    <div class="tab-pane" id="secondtab">-->
+    <!--                                        <p>L&T Infotech</p>-->
+    <!--                                    </div>-->
+    <!--                                    <div class="tab-pane" id="thirdtab">-->
+    <!--                                        <p>CSIR CDRI</p>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                            </div>-->
+
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </section>&lt;!&ndash; End About Section &ndash;&gt;-->
 
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="about-mf sect-pt4 route">
@@ -214,11 +446,11 @@
                                     Skills
                                 </h5>
                             </div>
-                            <div class="row" style="margin-bottom:10px">
-                                <span style="background-color:#cd0a0a; color:white; padding:10px; border-radius:10px;">Expert</span>&nbsp
-                                <span style="background-color:#006400; color:white; padding:10px; border-radius:10px;">Proficient</span>&nbsp
-                                <span style="background-color:#640064; color:white; padding:10px; border-radius:10px;">Intermediate</span>&nbsp
-                                <span style="background-color:#db6400; color:white; padding:10px; border-radius:10px;">Beginner</span>
+                            <div class="row" style="margin-bottom:10px;">
+                                <span style="background-color:#cd0a0a; color:white; padding:10px; border-radius:10px; margin-bottom:10px">Expert</span>&nbsp
+                                <span style="background-color:#006400; color:white; padding:10px; border-radius:10px; margin-bottom:10px">Proficient</span>&nbsp
+                                <span style="background-color:#640064; color:white; padding:10px; border-radius:10px; margin-bottom:10px">Intermediate</span>&nbsp
+                                <span style="background-color:#db6400; color:white; padding:10px; border-radius:10px; margin-bottom:10px">Beginner</span>
                             </div>
                             <div class="row">
                                 <div class="col-md-4"
@@ -243,17 +475,17 @@
                                              role="progressbar" style="width: 85%; background-color:#006400"
                                              aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <span style="color:#006400;font-family:Lucida Console;"><strong>Kotlin</strong></span>
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
-                                             role="progressbar" style="width: 70%; background-color:#006400"
-                                             aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
                                     <span style="color:#006400;font-family:Lucida Console;"><strong>Javascript</strong></span>
                                     <div class="progress">
                                         <div class="progress-bar progress-bar-striped progress-bar-animated"
                                              role="progressbar" style="width: 80%; background-color:#006400"
                                              aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span style="color:#006400;font-family:Lucida Console;"><strong>Kotlin</strong></span>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                             role="progressbar" style="width: 70%; background-color:#006400"
+                                             aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                     <span style="color:#640064;font-family:Lucida Console;"><strong>HTML/CSS</strong></span>
                                     <div class="progress">
@@ -320,16 +552,14 @@
     </section><!-- End Skills Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section class="paralax-mf footer-paralax bg-image sect-mt4 route">
+    <section id="contact" class="about-mf sect-pt4 route">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="contact-mf">
-                        <div id="contact" class="box-shadow-full">
-                            <div class="row">
-                            </div>
+                    <div class="about-mf">
+                        <div class="box-shadow-full">
                             <div class="col-md-6">
-                                <div class="title-box-2 pt-4 pt-md-0">
+                                <div class="title-box-2">
                                     <h5 class="title-left">
                                         Get in Touch
                                     </h5>
@@ -373,17 +603,9 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="copyright-box">
-                    <p class="copyright">&copy; Copyright <strong>Aniket Milind Banginwar</strong>. All Rights Reserved
+                    <p class="copyright">&copy; Copyright <strong>Aniket Milind Banginwar</strong>. All Rights Reserved.
                     </p>
-                    <div class="credits">
-                        <!--
-                        All the links in the footer should remain intact.
-                        You can delete the links only if you purchased the pro version.
-                        Licensing information: https://bootstrapmade.com/license/
-                        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
-                      -->
-                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-                    </div>
+                    <p>This website was last updated on: <span id="lastUpdated"></span></p>
                 </div>
             </div>
         </div>
@@ -404,6 +626,29 @@
 <script src="assets/js/main.js"></script>
 <script src="assets/js/particles.js"></script>
 <script src="assets/js/app.js"></script>
+
+<script>
+        function getTS() {
+            var month = new Array();
+            month[0] = "January";
+            month[1] = "February";
+            month[2] = "March";
+            month[3] = "April";
+            month[4] = "May";
+            month[5] = "June";
+            month[6] = "July";
+            month[7] = "August";
+            month[8] = "September";
+            month[9] = "October";
+            month[10] = "November";
+            month[11] = "December";
+            var x = new Date(document.lastModified);
+            x = month[parseInt(x.getMonth())] + " " + x.getDate() + ", " + x.getFullYear();
+            document.getElementById("lastUpdated").innerHTML = x;
+        }
+
+
+</script>
 </body>
 
 </html>

@@ -1,9 +1,7 @@
 /**
-* Template Name: DevFolio - v2.3.0
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* Author: Aniket Milind Banginwar
 */
+
 (function($) {
   "use strict";
 
@@ -121,6 +119,17 @@
 
   /*--/ Testimonials owl /--*/
   $('#testimonial-mf').owlCarousel({
+    margin: 20,
+    nav:true,
+    navText: ["<i class='fa fa-angle-left' style='font-size:40px;color:#023E8A;font-weight:600'></i>", "<i class='fa fa-angle-right' style='font-size:40px;color:#023E8A;font-weight:600'></i>"],
+    responsive: {
+      0: {
+        items: 1,
+      }
+    }
+  });
+
+    $('#work-ex-mf').owlCarousel({
     margin: 20,
     nav:true,
     navText: ["<i class='fa fa-angle-left' style='font-size:40px;color:#023E8A;font-weight:600'></i>", "<i class='fa fa-angle-right' style='font-size:40px;color:#023E8A;font-weight:600'></i>"],
