@@ -629,6 +629,7 @@
 
 <script>
         function getTS() {
+            document.addEventListener('contextmenu', event => event.preventDefault());
             var month = new Array();
             month[0] = "January";
             month[1] = "February";
@@ -646,8 +647,6 @@
             x = month[parseInt(x.getMonth())] + " " + x.getDate() + ", " + x.getFullYear();
             document.getElementById("lastUpdated").innerHTML = x;
         }
-
-
 </script>
 </body>
 
